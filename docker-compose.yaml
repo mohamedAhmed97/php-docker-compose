@@ -1,0 +1,6 @@
+version: "2.2"
+services:
+  php-project:
+    image: ${IMAGE}
+    ports:
+      - 8082:8001
